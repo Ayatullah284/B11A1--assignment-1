@@ -45,6 +45,7 @@ body p{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 160px;
     margin-right: 160px;
     padding: 24px 0px;
