@@ -19,6 +19,9 @@ body{
     background-color: #f5f5f5;
     color: rgb(14, 14, 14, 100%);
 }
+body p{
+    color: rgb(14, 14, 14, 70%);
+}
 .all-section{
     margin: 0 160px;    
 }
@@ -41,7 +44,6 @@ body{
 /* Banner-Section  */
 .Banner-Section{
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
     background-color: #C6E4D6;
@@ -52,7 +54,11 @@ body{
 }
 
 .banner-text{
-    padding-right: 64px;    
+    flex:1;
+}
+.Banner-Section img{
+    flex:1;
+    width: 475px;
 }
 .banner-text p{
     font-size: 34px;
