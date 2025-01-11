@@ -38,7 +38,7 @@ body p{
 .common-button:hover{
     background-color: orange;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 /* header  */
@@ -58,7 +58,7 @@ body p{
 .header button:hover{
     background-color: orange;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 /* Banner-Section  */
@@ -102,7 +102,7 @@ body p{
 .Banner-Section button:hover{
     background-color: #f40200;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 
@@ -124,7 +124,7 @@ body p{
 }
 .card:hover{
     background-color: rgb(171, 244, 118);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .card-1 {
     background-color: #d5e2f5;
@@ -212,7 +212,7 @@ body p{
 .donate-cart:hover{
     background-color: rgb(171, 244, 118);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .green{
@@ -242,6 +242,7 @@ body p{
     background-color: #c5e4d5;
     border-radius: 24px;
     padding: 80px 0 80px;
+    margin: 80px;
 
 }
 .newsletter p{
@@ -275,5 +276,29 @@ body p{
     border: 0.1px solid gray;
 }
 
+
+
+/* footer  */
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* height: 226px; */
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer hr{
+    width: 1122px;
+}
+.footer-items{
+
+}
+#facebook{
+    margin-right: 23px;
+}
+#x{
+    margin-left: 23px;
+}
 
 /* 1-11-2025  programming hero first milestton */
