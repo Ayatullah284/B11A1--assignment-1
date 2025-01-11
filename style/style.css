@@ -301,5 +301,8 @@ footer hr{
 #x{
     margin-left: 23px;
 }
+footer img{
+    cursor: pointer;
+}
 
 /* 1-11-2025  programming hero first milestton */
