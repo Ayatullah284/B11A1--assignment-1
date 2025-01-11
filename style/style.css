@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  
+
+
+
+
+/* commone style  */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: rgb(14, 14, 14, 100%);
+}
+.all-section{
+    margin: 0 160px;    
+}
+.common-button{
+    width: 122px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;    
+    color: #FFFFFF;
+    background-color: #06674e;
+    cursor: pointer;
+    font-size: 18px;
+}
+.common-button:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Banner-Section  */
+.Banner-Section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 80px 60px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+
+.banner-text{
+    padding-right: 64px;    
+}
+.banner-text p{
+    font-size: 34px;
+    font-weight: 800;
+}
+.banner-text h3{
+    color: rgb(14, 14, 14, 15%);
+}
+
+.Banner-Section button{
+    border: none;
+    background-color: #006A50;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.Banner-Section button:hover{
+    background-color: #f40200;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
+
+
+/* vision  */
+.Vision{
+    margin-bottom: 32px;
+}
+.card-container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.card{
+    border-radius: 16px;
+    padding: 24px;
+    width: 302px;
+    height: 244px;
+}
+.card:hover{
+    background-color: rgb(171, 244, 118);
+    transition: 0.5s;
+}
+.card-1 {
+    background-color: #d5e2f5;
+    margin-right: 24px;
+}
+.card-1 button{
+    background-color: #5193f0;
+}
+.card-2 {
+    background-color: #c5e4d5;
+}
+.card-2 button{
+    background-color: #08a359;
+}
+
+.card-3 {
+    background-color: #f3cff6;
+    margin-left: 24px;
+}
+.card-3 button{
+    background-color: #3be0fd;
+}
+.card image{
+    width: 62px;
+}
+
+
+
+
+
+/* news  */
+.img-1{
+    border-radius: 24px;
+    margin-right: 32px;
+}
+.img-2{
+    border-radius: 24px;
+    margin-left: 32px;
+}
+.news{
+    display: flex;
+    padding: 48px;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+
+
+
+
+
+
+/* donate  */
+.donate{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.donate p{
+    margin-left: 88px;
+    margin-right: 88px;
+}
+.donate input{
+    height: 64px;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.donate-carts{
+    display: flex;
+    margin: 0 104.5px;
+    justify-content: space-between;
+}
+.donate-cart{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+
+}
+.donate-cart:hover{
+    background-color: rgb(171, 244, 118);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.green{
+    background-color: #c5e4d5;
+}
+
+
+
+
+
+
+
+/* newsletter  */
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search button {
+    width: 150px;
+    height: 56px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+.newsletter{
+    text-align: center;
+    background-color: #c5e4d5;
+    border-radius: 24px;
+    padding: 80px 0 80px;
+
+}
+.newsletter p{
+    margin-left: 329px;
+    margin-right: 329px;
+}
+.newsletter input{
+    height: 55px;
+    width: 600px;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    font-size: 20px;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+
+
+
+/* Yunus  */
+.Yunus{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    height: 256px;
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 5.2% 6.8%;
+    padding: 24px 48px;
+    margin-bottom: 80px;
+}
