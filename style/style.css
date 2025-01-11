@@ -269,7 +269,7 @@ body p{
     background-color: #FFFFFF;
     border-radius: 16px;
     height: 256px;
-    background-image: url("assets/quote-bg.png");
+    background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 5.2% 6.8%;
     padding: 24px 48px;
